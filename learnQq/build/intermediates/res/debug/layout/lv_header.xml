@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7700aaaa" >
+    <RelativeLayout 
+        android:id="@+id/head_contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp">
+        
+        <FrameLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true">
+            
+            <ImageView 
+                android:id="@+id/lvHeaderArrowIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/arrow"/>
+            
+            <ProgressBar
+                android:id="@+id/lvHeaderProgressBar"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </FrameLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            
+            <TextView
+                android:id="@+id/lvHeaderTipsTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下拉刷新"
+                android:textColor="#ffffffff"
+                android:textSize="20sp"/>
+            
+            <TextView
+                android:id="@+id/lvHeaderLastUpdatedTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上次更新"
+                android:textColor="#ffffffff"
+                android:textSize="10sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    
+
+</LinearLayout>
+<!-- From: file:/D:/AndroidStudio/StudioWorkplace/MyApplicationMGQ/learnQq/src/main/res/layout/lv_header.xml -->

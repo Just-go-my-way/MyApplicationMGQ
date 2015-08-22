@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidStudio/StudioWorkplace/MyApplicationMGQ/learnQq/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="extraX">64dp</dimen>
+    <!-- From: file:/D:/AndroidStudio/StudioWorkplace/MyApplicationMGQ/learnQq/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">LearnQq</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <!-- From: file:/D:/AndroidStudio/StudioWorkplace/MyApplicationMGQ/learnQq/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ExampleTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="homeAsUpIndicator">@drawable/one</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <!-- <item name="android:homeAsUpIndicator">@drawable/two</item> -->
+    </style>
+    <style name="MenuTextStyle">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

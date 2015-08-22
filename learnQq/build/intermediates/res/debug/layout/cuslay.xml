@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:text="消息" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:text="电话" />
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio/StudioWorkplace/MyApplicationMGQ/learnQq/src/main/res/layout/cuslay.xml -->

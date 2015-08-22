@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <!-- 每条消息对应的布局 -->
+
+    <LinearLayout
+        android:id="@+id/myhs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#228855"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="9"
+                    android:text="name"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/extraX"
+            android:layout_height="fill_parent"
+            android:text="删除"
+            android:textColor="#990000" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudio/StudioWorkplace/MyApplicationMGQ/learnQq/src/main/res/layout/fragment_msg.xml -->

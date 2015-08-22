@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.learnqq.MainActivity" >
+
+    <group
+        android:id="@+id/myGroup"
+        android:checkableBehavior="none"
+        android:menuCategory="alternative"
+        android:orderInCategory="1" >
+        <item
+            android:icon="@drawable/one"
+            android:title="扫一扫"/>
+        <item
+            android:icon="@android:drawable/alert_light_frame"
+            android:title="加好友"/>
+        <item
+            android:id="@android:drawable/arrow_down_float"
+            android:title="创建讨论组"/>
+    </group>
+
+    <item
+        android:id="@+id/add"
+        android:title="添加"
+        android:visible="false"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/more"
+        android:title="更多"
+        android:visible="false"
+        android:orderInCategory="3"/>
+
+</menu><!-- From: file:/D:/AndroidStudio/StudioWorkplace/MyApplicationMGQ/learnQq/src/main/res/menu/main.xml -->
